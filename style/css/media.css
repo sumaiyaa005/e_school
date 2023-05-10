@@ -1,16 +1,156 @@
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
 
+    header{
+        padding:  0;
+    }
+
+    .logo{
+        width: 180px;
+    }
+    
+    .menu ul li a{
+        margin-bottom:10px;
+        padding: 0 10px !important;
+    }
+    /* header end */
+    
+   /* banner start */
+
+   .b_text{
+    text-align: center;
+}
+.b_h1{
+    padding: 0 ;
+    font-size: 35px;
+    line-height: 45px;
+
+}
+.b_p2{
+    padding: 0 ;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.btn_g{
+    margin:15px auto 0;
+    width: 200px;
+}
+
+.b_img{
+    margin-bottom: 15px;
+    padding: 0 ;
+}
+
+    /*feature start  */
+    .feature{
+        padding: 25px 0 60px;
+    }
+    .f_item{
+    margin-top: 24px;    
+    }
+    /* feature end */
+    
+
     
  }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
 
+    header{
+        padding:  0;
+    }
+
+    .logo{
+        width: 190px;
+    }
+    
+    .menu ul li a{
+        margin-bottom:10px;
+        padding: 0 10px !important;
+    }
+    /* header end */
+
+    /* banner start */
+
+.b_text{
+    text-align: center;
+}
+.b_h1{
+    padding: 0 80px;
+    font-size: 35px;
+    line-height: 45px;
+
+}
+.b_p2{
+    padding: 0 50px;
+    line-height: 30px;
+}
+
+.btn_g{
+    margin:15px auto 0;
+    width: 350px;
+}
+
+.b_img{
+    margin-bottom: 20px;
+    padding: 0 50px;
+}
+    /*feature start  */
+.feature{
+    padding: 25px 0 60px;
+}
+.f_item{
+margin-top: 24px;    
+}
+/* feature end */
+
     }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header start */
+
+   
+    .menu ul li a{
+        margin-bottom:10px;
+        padding: 0 10px !important;
+    }
+    /* header end */
+    
+/* banner start */
+
+.b_text{
+    text-align: center;
+}
+.b_h1{
+    padding: 0 100px;
+
+}
+.b_p2{
+    padding: 0 110px;
+}
+
+.btn_g{
+    margin:15px auto 0;
+    width: 400px;
+}
+
+.b_img{
+    margin-bottom: 30px;
+    padding: 0 100px;
+}
+/* feature start */
+.feature{
+    padding: 25px 0 100px;
+}
+.f_item{
+margin-top: 24px;    
+}
+/* feature end */
+
 
     }
 

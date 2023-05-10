@@ -21,14 +21,141 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: #000000;
+    background-color: #FFFFFF;;
 }
 /* common end */
 
 /* header start */
-header{}
+header{
+    background-color: #F0FFF0;
+    padding: 15px 0;
+}
 .cnav{}
 .logo{}
-.menu ul li a{}
-.menu ul li a:hover{}
 
+.ntc:focus {
+    box-shadow: none;
+}
+.menu ul li a{
+    padding: 0 25px !important;
+    color: #000000 !important;
+    line-height: 24px;
+}
+.menu ul li a:hover{
+    color: #FD511A !important;
+}
+.btn_c{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21B573;
+    border-radius: 33px;
+    font-family:Roboto-Regular ;
+    line-height: 19px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.btn_c:hover{
+    background-color: #FD511A;
+    color: #FFFFFF;
+}
+.btn_c:active{
+    background-color: #FD511A !important;
+    color: #FFFFFF !important;
+}
+.btn_s{
+    margin-left: 10px;
+    width:105px;
+    height: 45px;
+}
 /* header end */
+
+/* banner start */
+.banner{
+    background-color: #F0FFF0;
+    padding-bottom: 60px;
+
+}
+.b_text{
+}
+.b_p1{
+    color: #FD511A;
+    line-height: 24px;
+}
+.b_h1{
+    margin: 10px 0 20px;
+    padding-right: 25px;
+    font-family: Poppins-Bold;
+    font-size: 48px;
+    line-height: 70px;
+
+}
+.b_h1 span{
+    color: #21B573;
+}
+
+.b_p2{
+    line-height: 36px;
+
+}
+.btn_g{
+    margin-top: 15px;
+    width: 153px;
+    height: 43px;
+}
+.b_img{
+
+}
+.b_img img{
+    width: 100%;
+
+}
+
+/* feature start */
+.feature{
+    padding: 45px 0 100px;
+}
+.f_item{
+    padding: 55px 0 50px;
+    background-color: #F8FFFB;;
+    border-radius: 10px;
+    text-align: center;
+    transition: .33s;
+    
+}
+.f_item:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.f_img{
+margin: 0 auto 22px;
+width: 65px;
+height: 85px;
+}
+.f_h2{
+    font-family: Poppins-Medium;
+    font-size: 24px;
+    line-height: 36px;
+
+
+}
+.f_p{
+    line-height: 24px;
+
+}
+/* feature start */
+
+/* course start */
+.course{
+    padding-bottom: 100px;
+}
+.c_title{
+
+}
+.c_h1{
+    font-family: Poppins-Bold;
+    font-size: 36px;
+    line-height: 54px;
+}
+/* course end */
