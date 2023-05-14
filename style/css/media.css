@@ -51,6 +51,52 @@
     }
     /* feature end */
     
+/* course start */
+
+.course{
+    padding-bottom: 60px;
+}
+
+.c_h1{
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.c_item{
+    margin: 30px 0 0;
+    padding: 15px 10px 20px;
+}
+
+.c_h2{
+    font-size: 20px;
+}
+    
+.l_item:not(:last-child) {
+    margin-right: 0px;
+}
+.ci_img{
+    width:20px;
+}
+.ci_span{
+   font-size: 15px;
+}
+/* course end */
+
+/* Testimonial start */
+.c_ind {
+    bottom: -40px;
+   }
+    .c_slider{
+        margin-top: 35px;
+    }
+    .s_img{
+        padding:0px 70px ;
+    }
+    .s_text {
+        line-height: 28px;
+        padding: 25px 25px;
+    }
+/* Testimonial end */
 
     
  }
@@ -105,6 +151,37 @@
 margin-top: 24px;    
 }
 /* feature end */
+/* course start */
+
+
+    .course{
+        padding-bottom: 60px;
+    }
+    .c_h1{
+        font-size: 30px;
+        line-height: 50px;
+    }
+    .c_item{
+        margin: 30px 80px 0;
+    
+    }
+/* course end */
+
+/* Testimonial start */
+  .c_ind {
+    bottom: -40px;
+   }
+    .c_slider{
+        margin-top: 35px;
+    }
+    .s_img{
+        padding:0px 150px ;
+    }
+    .s_text {
+        line-height: 28px;
+        padding: 25px 25px;
+    }
+    /* Testimonial end */
 
     }
 
@@ -144,23 +221,76 @@ margin-top: 24px;
 }
 /* feature start */
 .feature{
-    padding: 25px 0 100px;
+    padding: 25px 0 80px;
 }
 .f_item{
 margin-top: 24px;    
 }
 /* feature end */
 
+    /* course start */
+
+.course{
+    padding-bottom: 80px;
+}
+.c_item{
+    margin: 40px 150px 0;
+
+}
+    /* course end */
+
+    /* Testimonial start */
+    
+    .c_slider{
+        margin-top: 35px;
+    }
+    .s_text {
+        line-height: 30px;
+        padding: 26px 25px;
+    }
+    /* Testimonial end */
 
     }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /* course start */
+    .c_item{
+        padding: 20px 15px 25px;
+    }
+    .l_item:not(:last-child) {
+        margin-right: 0px;
+    }
+    .ci_img{
+        width:20px;
+    }
+    .ci_span{
+       font-size: 15px;
+    }
+    /* course end */
+
+    /* Testimonial start */
+    .c_ind {
+        bottom: -60px;
+    }
+    .s_text {
+        line-height: 28px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    /* Testimonial end */
+
 }
 
     /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) and (max-width: 1399.98px) {
 
+/* Testimonial start */
+    .s_text {
+        padding: 10px 30px;
+    }
+    /* Testimonial end */
     }
 
 
